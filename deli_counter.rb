@@ -1,7 +1,7 @@
 katz_deli = [] 
 
-def take_a_number(deli, name)
-  deli.push(name)
+def take_a_number(array, name)
+  array.push(name)
   spot = array.index(name)
   puts "Welcome, #{name}. You are number #{array.index(name)+1} in line."
   return name, spot 

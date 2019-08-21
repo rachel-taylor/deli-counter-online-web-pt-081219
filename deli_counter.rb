@@ -19,4 +19,3 @@ def line_simple(array)
   end 
   puts current_line
 end 
-end 

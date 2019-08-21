@@ -1,4 +1,4 @@
-def deli(array)
+def line(array)
   if array.length >= 1 
     new = []
     counter = 1 

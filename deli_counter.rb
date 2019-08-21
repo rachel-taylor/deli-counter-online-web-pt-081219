@@ -2,14 +2,10 @@ katz_deli = []
 
 def take_a_number(array, name)
   array.push(name)
-  position = array.index(name)
+  spot = array.index(name)
   puts "Welcome, #{name}. You are number #{array.index(name)+1} in line."
-  return name, position 
+  return name, spot 
 end 
-
-take_a_number(katz_deli, "Grace")
-take_a_number(katz_deli, "Tom")
-take_a_number(katz_deli, "Alan")
 
 def line(array) 
   if array.length == 0 

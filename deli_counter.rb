@@ -11,6 +11,6 @@ def line(array)
     puts "The line is currently empty."
   end 
 end  
-# def line_simple(array)
-#   current_line = "This simple l"
-# end 
+def line_simple(array)
+  current_line = "This simple l"
+end 

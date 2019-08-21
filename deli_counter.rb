@@ -1,9 +1,9 @@
-def line(array)
+def deli(array)
   if array.length >= 1 
-    new_array = []
+    new = []
     counter = 1 
     array.each do |name|
-      new_array.push("#{counter}. #{name}") 
+      new.push("#{counter}. #{name}") 
       counter += 1 
     end 
     puts "The line is currently: #{new_array.join(" ")}"
